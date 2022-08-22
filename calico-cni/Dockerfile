@@ -1,2 +1,2 @@
-FROM docker.io/calico/cni:v3.23.2
+FROM docker.io/calico/cni:v3.24.0
 MAINTAINER lajifeiwomoshu

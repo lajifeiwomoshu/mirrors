@@ -1,2 +1,2 @@
-FROM docker.io/calico/kube-controllers:v3.23.2
+FROM docker.io/calico/kube-controllers:v3.24.0
 MAINTAINER lajifeiwomoshu

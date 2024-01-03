@@ -1,5 +1,6 @@
 FROM aquasec/trivy
 MAINTAINER lajifeiwomoshu@aliyun.com
+WORKDIR /tmp
 RUN trivy image --download-java-db-only && trivy image --download-db-only
-CMD /bin/sh sleep 3600
+ENTRYPOINT ["/bin/sh","-c","sleep 3600"]
 

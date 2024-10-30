@@ -1,0 +1,2 @@
+from signalwire/freeswitch:latest
+maintainer lajifeiwomoshu
